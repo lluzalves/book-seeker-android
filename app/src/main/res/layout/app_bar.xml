@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@color/cardview_dark_background"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:id="@+id/app_bar">
+
+    <TextView
+            android:text="@string/app_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/app_name"/>
+
+</LinearLayout>

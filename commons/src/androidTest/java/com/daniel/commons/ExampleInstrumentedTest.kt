@@ -1,7 +1,8 @@
-package com.ciandt.book.seeker
+package com.daniel.commons
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
+
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -18,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.ciandt.book.seeker", appContext.packageName)
+        assertEquals("com.daniel.commons.test", appContext.packageName)
     }
 }

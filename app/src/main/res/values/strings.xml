@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">book-seeker-android</string>
+    <string name="search">Search</string>
+    <string name="please_wait">Please wait</string>
+    <string name="info">Info</string>
+    <string name="history">History</string>
+    <string name="search_hint">hint</string>
+    <string name="linkedin_profile">\"http://www.linkedin.com/in/daniel-luz-alves-9984ba114\"</string>
+    <string name="app_info"><![CDATA[\"Desafio CI&T, criado por Daniel Luz\"]]></string>
+    <string name="app_label">Book Seeker</string>
+    <string name="error">Error: %s</string>
 </resources>
