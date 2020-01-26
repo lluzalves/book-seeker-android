@@ -5,7 +5,7 @@ Find books with Itunes API
 
 - Clean Architecture + MVVM Pattern
 - Kotlin Language
-- Main libs : RxAndroid, Retrofit, Navigation, ViewModel
+- Main libs : RxAndroid, Retrofit, Navigation
 - Koin Dependency injection 
 - Offline support using cache
 - Modularity [ domain, data, commons, app ]
