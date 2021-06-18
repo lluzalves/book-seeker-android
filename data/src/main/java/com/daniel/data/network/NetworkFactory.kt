@@ -81,7 +81,7 @@ class NetworkFactory : INetworkFactory, KoinComponent {
                 connectivityManager.activeNetworkInfo ?: connectivityManager.getNetworkInfo(
                     ConnectivityManager.TYPE_MOBILE
                 )
-            return networkInfo.isConnected
+            return networkInfo?.isConnected!!
         }
     }
 }
