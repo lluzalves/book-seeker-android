@@ -6,7 +6,7 @@ apply plugin: 'io.gitlab.arturbosch.detekt'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.ciandt.book.seeker"
         minSdkVersion 21
@@ -55,40 +55,40 @@ dependencies {
     api project(':commons')
     api project(':data')
     api project(':domain')
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc03'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0-alpha01'
     implementation 'com.github.fondesa:kpermissions:1.0.0'
     implementation 'com.afollestad.material-dialogs:bottomsheets:3.1.0'
-    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
     // androidx dependencies
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation "android.arch.navigation:navigation-fragment:1.0.0"
     implementation "android.arch.navigation:navigation-ui:1.0.0"
     implementation "android.arch.navigation:navigation-fragment:1.0.0"
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation "android.arch.navigation:navigation-ui:1.0.0"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.core:core-ktx:1.5.0'
 
     // other dependencies
-    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.3.1'
-    implementation 'com.squareup.retrofit2:converter-moshi:2.7.1'
-    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.8.0'
+    implementation 'com.google.android.material:material:1.3.0'
 
     // test dependencies
-    testImplementation 'androidx.test:core:1.2.0'
-    testImplementation 'junit:junit:4.13'
-    testImplementation 'io.mockk:mockk:1.9.3'
-    testImplementation 'com.squareup.okhttp3:mockwebserver:4.3.1'
+    testImplementation 'androidx.test:core:1.3.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'io.mockk:mockk:1.11.0'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.9.0'
 
     // android test dependencies
-    androidTestImplementation 'androidx.test:core:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test:core:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test:rules:1.3.0'
 
     detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.0.1"
 }
