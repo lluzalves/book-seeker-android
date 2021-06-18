@@ -36,7 +36,7 @@ class DetailsFragment : Fragment() {
     }
 
     private fun setupUiItems() {
-        Picasso.with(context)
+        Picasso.get()
             .load(itunesItem.artwork100)
             .into(itemCover as ImageView)
 

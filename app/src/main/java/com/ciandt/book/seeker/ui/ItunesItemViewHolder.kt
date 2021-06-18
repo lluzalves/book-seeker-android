@@ -43,7 +43,7 @@ class ItunesItemViewHolder constructor(itemView: View) :
     }
 
     private fun setItemArtwork(path: String) {
-        Picasso.with(itemView.context)
+        Picasso.get()
             .load(path)
             .into(itemView.itemCover as ImageView)
     }
